@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="images/favicon.png">
-  <title>ECO HTML</title>
+  <title>EcoInspire</title>
   <!-- CSS FILES START -->
   <link href="css/custom.css" rel="stylesheet">
   <link href="css/color.css" rel="stylesheet">
@@ -18,6 +18,9 @@
   <link href="css/all.min.css" rel="stylesheet">
   <link href="css/slick.css" rel="stylesheet">
   <!-- CSS FILES End -->
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <!-- AOS CSS End-->
 </head>
 
 <body>
@@ -25,7 +28,7 @@
     <!--Header Start-->
     <header class="header-style-2">
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index-2.html"><img src="images/MainLogo.jpg" alt=""></a>
+        <a class="navbar-brand" href="index.html"><img src="images/MainLogo.jpg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <i
             class="fas fa-bars"></i> </button>
@@ -34,11 +37,6 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="index.html" role="button" aria-haspopup="true"
                 aria-expanded="false"> Home </a>
-              <!-- <ul class="dropdown-menu" >
-                           <li><a href="index-2.html">Home One</a></li>
-                           <li><a href="home-two.html">Home Two</a></li>
-                           <li><a href="home-three.html">Home Three</a></li>
-                        </ul> -->
             </li>
             <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
             <li class="nav-item dropdown">
@@ -54,27 +52,27 @@
               <!-- </ul> -->
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="causes.html" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"> Causes </a>
-              <ul class="dropdown-menu">
+              <a class="nav-link dropdown-toggle" href="causes.html" role="button" aria-haspopup="true"
+                aria-expanded="false"> Causes </a>
+              <!-- <ul class="dropdown-menu">
                 <li><a href="causes.html">Causes Grid</a></li>
                 <li><a href="causes-list.html">Causes List</a></li>
                 <li><a href="causes-details.html">Causes Details</a> </li>
-              </ul>
+              </ul> -->
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="blog.html" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"> Blogs </a>
-              <ul class="dropdown-menu">
+              <a class="nav-link dropdown-toggle" href="blog-three-col.html" role="button" aria-haspopup="true"
+                aria-expanded="false"> Blogs </a>
+              <!-- <ul class="dropdown-menu">
                 <li><a href="blog.html">Blog Default</a></li>
                 <li><a href="blog-list.html">Blog List</a> </li>
                 <li><a href="blog-grid.html">Blog Grid</a></li>
                 <li><a href="blog-two-col.html">Blog Two Columns</a> </li>
                 <li><a href="blog-three-col.html">Blog Three Columns</a></li>
                 <li><a href="blog-details.html">Blog Details</a></li>
-              </ul>
+              </ul> -->
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false"> Pages </a>
               <ul class="dropdown-menu">
@@ -118,17 +116,17 @@
                 <li><a href="coming-soon.html">Coming Soon</a> </li>
                 <li><a href="page-404.html">404 Error</a> </li>
               </ul>
-            </li>
+            </li> -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="contact.html" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"> Contact </a>
-              <ul class="dropdown-menu">
+              <a class="nav-link dropdown-toggle" href="#ola-socials" role="button" aria-haspopup="true"
+                aria-expanded="false"> Contact </a>
+              <!-- <ul class="dropdown-menu">
                 <li><a href="contact-one.html">Contact One</a> </li>
                 <li><a href="contact-two.html">Contact Two</a> </li>
-              </ul>
+              </ul> -->
             </li>
           </ul>
-          <ul class="topnav-right">
+          <!-- <ul class="topnav-right">
             <li> <a class="mdonate" href="donation.html"><span>Make a Donation</span></a> </li>
             <li> <a class="search-icon" href="#search"> <i class="fas fa-search"></i> </a> </li>
             <li class="dropdown">
@@ -153,7 +151,7 @@
               </div>
             </li>
             <li class="login-reg"> <a href="my-account.html">Login</a> | <a href="my-account.html">Signup</a> </li>
-          </ul>
+          </ul> -->
         </div>
       </nav>
     </header>
@@ -170,14 +168,14 @@
       <div class="container">
         <h1>About Us</h1>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
         </ul>
       </div>
     </section>
     <!--Inner Header End-->
     <!--About Start-->
-    <section class="wf100 about">
+    <section class="wf100 about" data-aos="fade-up">
       <!--About Txt Video Start-->
       <div class="about-video-section wf100">
         <div class="container">
@@ -186,18 +184,20 @@
               <div class="about-text">
                 <h5>We are Taking Small Steps to Make</h5>
                 <h2>Earth Better Planet</h2>
-                <p><strong>One of the serious issues faced by our modern world is environmental pollution, and it is one
-                    the most significant challenges that the world is facing in our day.</strong></p>
-                <p>Environmental pollution has existed for centuries. But, it began to be a severe issue following the
-                  industrial revolution in the 19th century. Pollution generally takes place when pollutants pollute the
-                  natural surroundings and it can bring about changes that affect our everyday lifestyles unfavorably.
+                <p><strong>Environmental degradation is one of the most pressing challenges faced by our modern world.
+                    While pollution has been part of our history for centuries, particularly since the industrial
+                    revolution in the 19th century, today's environmental issues are more complex, encompassing wildlife
+                    preservation, reducing deforestation, and minimizing carbon emissions. </strong></p>
+                <p>These issues can adversely affect our daily lives, making it crucial to address them through
+                  education and action. At EcoInspire, we are committed to raising awareness and inspiring actions that
+                  help preserve and protect our natural world.
                 </p>
-                <a href="#">Contact Us</a>
+                <a href="#ola-socials">Contact Us</a>
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="about-video-img"> <a href="#"><i class="fas fa-play"></i></a> <img src="images/aboutimg.jpg"
-                  alt=""> </div>
+              <div class="about-video-img"> <a href="EcoInspireAbout.mp4"><i class="fas fa-play"></i></a> <img
+                  src="images/aboutimg.jpg" alt=""> </div>
             </div>
           </div>
         </div>
@@ -208,12 +208,11 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
-              <div class="story-title-bg"> <strong class="t1">ecova.</strong> <strong class="t2">20+</strong> <strong
-                  class="t3">Years of
-                  Services</strong>
+              <div class="story-title-bg"> <strong class="t1">EcoInspire</strong> <strong class="t2">6+</strong>
+                <strong class="t3">Years of Impact</strong>
               </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8" data-aos="fade-up">
               <div class="section-title-2">
                 <h5>About our History</h5>
                 <h2>Our Success Story</h2>
@@ -222,12 +221,12 @@
               <div class="eco-history">
                 <div class="timeline-slider">
                   <div class="timeline-nav">
-                    <div><span><strong>2000 - 2002</strong></span></div>
-                    <div><span><strong>2002 - 2006</strong></span></div>
-                    <div><span><strong>2006 - 2009</strong></span></div>
-                    <div><span><strong>2009 - 2012</strong></span></div>
-                    <div><span><strong>2012 - 2015</strong></span></div>
-                    <div><span><strong>2015 - 2018</strong></span></div>
+                    <div><span><strong>2018: The Beginning</strong></span></div>
+                    <div><span><strong>2019: Laying the Foundations</strong></span></div>
+                    <div><span><strong>2020: Expanding Reach</strong></span></div>
+                    <div><span><strong>2021: Growing Influence</strong></span></div>
+                    <div><span><strong>2022: Community Ties</strong></span></div>
+                    <div><span><strong>2023/24: Making a Mark</strong></span></div>
                   </div>
                   <div class="timeline">
                     <!--Timeline Text Start-->
@@ -235,56 +234,24 @@
                       <div class="row">
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>We Started</h6>
-                            <p> In 1998, We took step towards to make healthy and safe Eco Environment in the different
-                              fields, and our passion is: to clean the Eco Environment for the next generations who
-                              shall face the problem in future. </p>
+                            <h6>Inspiration</h6>
+                            <p>Inspired by the natural beauty of Nigeria and the urgent need for environmental
+                              stewardship, Olaoluwa conceived the idea of creating a platform to increase ecological
+                              awareness globally.</p>
                           </div>
                         </div>
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>Results of Hardwork</h6>
-                            <p> We have a very strong group of our senior team members and volunteers. But I must
-                              explain to you how all this mistaken idea of denounce pleasure and praising pain was born
-                              and I will give you a complete account. </p>
+                            <h6>Foundation</h6>
+                            <p> Initial steps included forming a mission statement and outlining strategic
+                              goals for what would become EcoInspire.</p>
                           </div>
                         </div>
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>Project </h6>
-                            <p> On the other hand, we denounce with righteous indignation and dislike men who are so
-                              beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
-                              that they cannot foresee. </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--Timeline Text End-->
-                    <!--Timeline Text Start-->
-                    <div>
-                      <div class="row">
-                        <div class=" col-4">
-                          <div class="timeline-box">
-                            <h6>Results of Hardwork</h6>
-                            <p> We have a very strong group of our senior team members and volunteers. But I must
-                              explain to you how all this mistaken idea of denounce pleasure and praising pain was born
-                              and I will give you a complete account. </p>
-                          </div>
-                        </div>
-                        <div class=" col-4">
-                          <div class="timeline-box">
-                            <h6>Project </h6>
-                            <p> On the other hand, we denounce with righteous indignation and dislike men who are so
-                              beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
-                              that they cannot foresee. </p>
-                          </div>
-                        </div>
-                        <div class=" col-4">
-                          <div class="timeline-box">
-                            <h6>We Started</h6>
-                            <p> In 1998, We took step towards to make healthy and safe Eco Environment in the different
-                              fields, and our passion is: to clean the Eco Environment for the next generations who
-                              shall face the problem in future. </p>
+                            <h6>Challenges</h6>
+                            <p>Facing limited resources and minimal public awareness, the early days were about
+                              perseverance and building a vision from the ground up.</p>
                           </div>
                         </div>
                       </div>
@@ -295,56 +262,24 @@
                       <div class="row">
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>We Started</h6>
-                            <p> In 1998, We took step towards to make healthy and safe Eco Environment in the different
-                              fields, and our passion is: to clean the Eco Environment for the next generations who
-                              shall face the problem in future. </p>
+                            <h6>Engagement</h6>
+                            <p> Olaoluwa began to build an online presence through social media, engaging with
+                              environmental enthusiasts and educators.
+                            </p>
                           </div>
                         </div>
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>Results of Hardwork</h6>
-                            <p> We have a very strong group of our senior team members and volunteers. But I must
-                              explain to you how all this mistaken idea of denounce pleasure and praising pain was born
-                              and I will give you a complete account. </p>
+                            <h6>Networking</h6>
+                            <p> Efforts were made to connect with environmental groups and experts to gain insights and
+                              support for the budding initiative.</p>
                           </div>
                         </div>
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>Project </h6>
-                            <p> On the other hand, we denounce with righteous indignation and dislike men who are so
-                              beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
-                              that they cannot foresee. </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--Timeline Text End-->
-                    <!--Timeline Text Start-->
-                    <div>
-                      <div class="row">
-                        <div class=" col-4">
-                          <div class="timeline-box">
-                            <h6>Results of Hardwork</h6>
-                            <p> We have a very strong group of our senior team members and volunteers. But I must
-                              explain to you how all this mistaken idea of denounce pleasure and praising pain was born
-                              and I will give you a complete account. </p>
-                          </div>
-                        </div>
-                        <div class=" col-4">
-                          <div class="timeline-box">
-                            <h6>Project </h6>
-                            <p> On the other hand, we denounce with righteous indignation and dislike men who are so
-                              beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
-                              that they cannot foresee. </p>
-                          </div>
-                        </div>
-                        <div class=" col-4">
-                          <div class="timeline-box">
-                            <h6>We Started</h6>
-                            <p> In 1998, We took step towards to make healthy and safe Eco Environment in the different
-                              fields, and our passion is: to clean the Eco Environment for the next generations who
-                              shall face the problem in future. </p>
+                            <h6>Recognition</h6>
+                            <p> The project started gaining traction among local environmental circles, receiving
+                              encouraging feedback and support.</p>
                           </div>
                         </div>
                       </div>
@@ -355,26 +290,24 @@
                       <div class="row">
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>We Started</h6>
-                            <p> In 1998, We took step towards to make healthy and safe Eco Environment in the different
-                              fields, and our passion is: to clean the Eco Environment for the next generations who
-                              shall face the problem in future. </p>
+                            <h6>Partnerships</h6>
+                            <p> Formed partnerships with educational programs in Nigeria like SDGs to weave
+                              environmental
+                              themes into their curriculums.</p>
                           </div>
                         </div>
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>Results of Hardwork</h6>
-                            <p> We have a very strong group of our senior team members and volunteers. But I must
-                              explain to you how all this mistaken idea of denounce pleasure and praising pain was born
-                              and I will give you a complete account. </p>
+                            <h6>Webinars</h6>
+                            <p> Launched a series of educational webinars featuring experts discussing topics like
+                              sustainable practices and wildlife conservation.</p>
                           </div>
                         </div>
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>Project </h6>
-                            <p> On the other hand, we denounce with righteous indignation and dislike men who are so
-                              beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
-                              that they cannot foresee. </p>
+                            <h6>Resilience</h6>
+                            <p>Despite the challenges posed by the global pandemic, EcoInspire saw a significant
+                              increase in digital participation.</p>
                           </div>
                         </div>
                       </div>
@@ -385,26 +318,78 @@
                       <div class="row">
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>Results of Hardwork</h6>
-                            <p> We have a very strong group of our senior team members and volunteers. But I must
-                              explain to you how all this mistaken idea of denounce pleasure and praising pain was born
-                              and I will give you a complete account. </p>
+                            <h6>Initiatives</h6>
+                            <p> Launched the first community-driven tree-planting initiative, successfully planting over
+                              40 trees and engaging local volunteers.</p>
                           </div>
                         </div>
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>Project </h6>
-                            <p> On the other hand, we denounce with righteous indignation and dislike men who are so
-                              beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
-                              that they cannot foresee. </p>
+                            <h6> Visibility</h6>
+                            <p>EcoInspire’s activities began attracting media attention, significantly
+                              boosting its visibility.</p>
                           </div>
                         </div>
                         <div class=" col-4">
                           <div class="timeline-box">
-                            <h6>We Started</h6>
-                            <p> In 1998, We took step towards to make healthy and safe Eco Environment in the different
-                              fields, and our passion is: to clean the Eco Environment for the next generations who
-                              shall face the problem in future. </p>
+                            <h6>Support</h6>
+                            <p>Increased support and volunteer involvement helped scale community actions and impact.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Timeline Text End-->
+                    <!--Timeline Text Start-->
+                    <div>
+                      <div class="row">
+                        <div class=" col-4">
+                          <div class="timeline-box">
+                            <h6>Scope Expansion</h6>
+                            <p> EcoInspire broadened its mission to address deforestation and carbon emissions,
+                              reflecting a more comprehensive approach to environmental issues.</p>
+                          </div>
+                        </div>
+                        <div class=" col-4">
+                          <div class="timeline-box">
+                            <h6> Collaborations</h6>
+                            <p>Strengthened ties with environmental NGOs and communities to maximize resource sharing
+                              and impact.</p>
+                          </div>
+                        </div>
+                        <div class=" col-4">
+                          <div class="timeline-box">
+                            <h6>Advocacy</h6>
+                            <p> Played a pivotal role in advocating for environmental protection policies, marking
+                              EcoInspire as a significant player in environmental advocacy.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Timeline Text End-->
+                    <!--Timeline Text Start-->
+                    <div>
+                      <div class="row">
+                        <div class=" col-4">
+                          <div class="timeline-box">
+                            <h6>Website Launch</h6>
+                            <p>The development and launch of the EcoInspire website marked a major milestone, providing
+                              a centralized platform for education, donations, and community engagement.</p>
+                          </div>
+                        </div>
+                        <div class=" col-4">
+                          <div class="timeline-box">
+                            <h6>Leadership and Expansion</h6>
+                            <p>With Olaoluwa at the helm, EcoInspire expanded into the Little Rock area, involving over
+                              70 tree plantings and the creation of new local partnerships.</p>
+                          </div>
+                        </div>
+                        <div class=" col-4">
+                          <div class="timeline-box">
+                            <h6> Legacy and Future Plans</h6>
+                            <p>With a solid foundation and a growing network, EcoInspire is
+                              set to continue its mission, inspiring a larger audience and fostering lasting
+                              environmental change. </p>
                           </div>
                         </div>
                       </div>
@@ -419,46 +404,43 @@
         </div>
       </div>
       <!--Our Success Story End-->
-      <!--Why you Need to Choose Ecova Start-->
-      <div class="choose-ecova wf100 p80">
+      <!--Why you Need to Choose EcoInspire Start-->
+      <div class="choose-ecova wf100 p80" data-aos="fade-up">
         <div class="container">
           <div class="row">
             <div class="col-lg-8">
               <div class="section-title-2">
                 <h5>Why you Need to</h5>
-                <h2>Choose Ecova</h2>
+                <h2>Choose EcoInspire</h2>
               </div>
               <div class="row">
                 <div class="col-6">
                   <div class="eco-box">
-                    <span class="econ-icon"><i class="far fa-handshake"></i></span>
-                    <h5> Become a Volunteer </h5>
-                    <p> Lorem ipsum dolor amet consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et
-                      dolore. </p>
+                    <span class="econ-icon"><i class="fas fa-book"></i>
+                    </span>
+                    <h5> Current Educational Content </h5>
+                    <p> Explore the latest articles on key environmental topics. </p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="eco-box">
                     <span class="econ-icon"><i class="far fa-money-bill-alt"></i></span>
-                    <h5> Send Donation </h5>
-                    <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                      id. </p>
+                    <h5> Support for Wildlife </h5>
+                    <p> Your donations directly contribute to wildlife conservation efforts. </p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="eco-box">
                     <span class="econ-icon"><i class="fas fa-heart"></i></span>
-                    <h5> Affective Causes </h5>
-                    <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is
-                      pain.</p>
+                    <h5> Local Educational Programs </h5>
+                    <p>Engage with our hands-on environmental programs in the Little Rock area.</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="eco-box">
-                    <span class="econ-icon"> <i class="fas fa-coffee"></i> </span>
-                    <h5> Fund Raising </h5>
-                    <p>Who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying
-                      consequences. </p>
+                    <span class="econ-icon"> <i class="fas fa-tree"></i> </span>
+                    <h5> Make a Difference </h5>
+                    <p>Help us make a significant impact on the environment together. </p>
                   </div>
                 </div>
               </div>
@@ -479,7 +461,7 @@
                     <input type="text" class="form-control" placeholder="Contact" aria-label="Contact">
                   </li>
                   <li>
-                    <input type="submit" class="fsubmit" value="Signup to Join us">
+                    <input type="submit" class="fsubmit" value="Sign up to Join us">
                   </li>
                 </ul>
               </div>
@@ -489,112 +471,125 @@
       </div>
       <!--Why you Need to Choose Ecova End-->
       <!--Testimonials Start-->
-      <section class="testimonials-section bg-white wf100 p80">
+      <section class="testimonials-section bg-white wf100 p80" data-aos="fade-up">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <div class="section-title-2 text-center">
-                <h5>Testimonials</h5>
-                <h2>What People Says</h2>
+                <h5>Testimonial</h5>
+                <h2>What People Say</h2>
               </div>
               <div id="testimonials" class="owl-carousel owl-theme">
                 <!--testimonials box start-->
                 <div class="item">
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using lorem sum is that it has a more or less normal
-                    distribution.</p>
-                  <div class="tuser"> <img src="images/tuser1.jpg" alt=""> <strong>Danny Scotten</strong> Florida
-                    Partner </div>
-                </div>
-                <!--testimonials box End-->
-                <!--testimonials box start-->
-                <div class="item">
-                  <p>As opposed to using 'Content here, content here', making it look like readable English. Many
-                    Desktop and Web Pages are using lorem ipsum.</p>
-                  <div class="tuser"> <img src="images/tuser2.jpg" alt=""> <strong>Richardson</strong> Florida Partner
+                  <p>EcoInspire is a game-changer in environmental education. Their resources are not only informative
+                    but truly inspiring!</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/NifemiImg.jpeg" alt=""> <strong>Fashina
+                      Nifemi</strong> Environment
+                    Enthusiast
                   </div>
                 </div>
                 <!--testimonials box End-->
                 <!--testimonials box start-->
                 <div class="item">
-                  <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
-                    to generate Lorem Ipsum which looks reasonable.</p>
-                  <div class="tuser"> <img src="images/tuser3.jpg" alt=""> <strong>Anna Lillian</strong> Florida Partner
+                  <p>Thanks to EcoInspire, I've learned so much about sustainable living. Their articles make complex
+                    topics easily understandable.</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/JenniferImg.jpeg" alt=""> <strong>Jennifer</strong>
+                    College Student
                   </div>
                 </div>
                 <!--testimonials box End-->
                 <!--testimonials box start-->
                 <div class="item">
-                  <p>Those who do not know how to pursue pleasure rationally encounter consequences that are extremely
-                    painful. Nor again is there anyone who loves or pursues or desires to obtain.</p>
-                  <div class="tuser"> <img src="images/tuser1.jpg" alt=""> <strong>Danny Scotten</strong> Florida
-                    Partner </div>
-                </div>
-                <!--testimonials box End-->
-                <!--testimonials box start-->
-                <div class="item">
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using lorem sum is that it has a more or less normal
-                    distribution.</p>
-                  <div class="tuser"> <img src="images/tuser1.jpg" alt=""> <strong>Danny Scotten</strong> Florida
-                    Partner </div>
-                </div>
-                <!--testimonials box End-->
-                <!--testimonials box start-->
-                <div class="item">
-                  <p>As opposed to using 'Content here, content here', making it look like readable English. Many
-                    Desktop and Web Pages are using lorem ipsum.</p>
-                  <div class="tuser"> <img src="images/tuser2.jpg" alt=""> <strong>Richardson</strong> Florida Partner
+                  <p>I've supported many environmental causes, but EcoInspire stands out with its clear impact on
+                    wildlife conservation. I'm proud to be a donor.</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/OnahiImg.jpeg" alt=""> <strong>Onahi Joel</strong>
+                    Environmental Blogger
                   </div>
                 </div>
                 <!--testimonials box End-->
                 <!--testimonials box start-->
                 <div class="item">
-                  <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
-                    to generate Lorem Ipsum which looks reasonable.</p>
-                  <div class="tuser"> <img src="images/tuser3.jpg" alt=""> <strong>Anna Lillian</strong> Florida Partner
+                  <p>Attending an EcoInspire workshop opened my eyes to the effects of deforestation. I'm more committed
+                    than ever to help!</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/FrancisImg.jpeg" alt=""> <strong> Francis Oledibe
+                    </strong> Little
+                    Rock
+                    Resident </div>
+                </div>
+                <!--testimonials box End-->
+                <!--testimonials box start-->
+                <div class="item">
+                  <p>I was looking for a way to get involved in environmental action. EcoInspire's programs made it easy
+                    to start making a difference right in my own community.</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/ZaraImg.jpeg" alt=""> <strong>Zara Duruji</strong>
+                    College Student
                   </div>
                 </div>
                 <!--testimonials box End-->
                 <!--testimonials box start-->
                 <div class="item">
-                  <p>Those who do not know how to pursue pleasure rationally encounter consequences that are extremely
-                    painful. Nor again is there anyone who loves or pursues or desires to obtain.</p>
-                  <div class="tuser"> <img src="images/tuser1.jpg" alt=""> <strong>Danny Scotten</strong> Florida
-                    Partner </div>
-                </div>
-                <!--testimonials box End-->
-                <!--testimonials box start-->
-                <div class="item">
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using lorem sum is that it has a more or less normal
-                    distribution.</p>
-                  <div class="tuser"> <img src="images/tuser1.jpg" alt=""> <strong>Danny Scotten</strong> Florida
-                    Partner </div>
-                </div>
-                <!--testimonials box End-->
-                <!--testimonials box start-->
-                <div class="item">
-                  <p>As opposed to using 'Content here, content here', making it look like readable English. Many
-                    Desktop and Web Pages are using lorem ipsum.</p>
-                  <div class="tuser"> <img src="images/tuser2.jpg" alt=""> <strong>Richardson</strong> Florida Partner
+                  <p>EcoInspire’s educational programs in Little Rock have brought our community together to protect our
+                    local environment. They're doing incredible work.</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/VictorImg.jpg" alt=""> <strong> Adelana
+                      Victor</strong> Local
+                    Business Owner
                   </div>
                 </div>
                 <!--testimonials box End-->
                 <!--testimonials box start-->
                 <div class="item">
-                  <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
-                    to generate Lorem Ipsum which looks reasonable.</p>
-                  <div class="tuser"> <img src="images/tuser3.jpg" alt=""> <strong>Anna Lillian</strong> Florida Partner
+                  <p>EcoInspire's dedication to teaching kids about the environment is remarkable. My children have
+                    become mini-conservationists thanks to their programs!</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/NoraImg.jpeg" alt=""> <strong>Nora P.</strong>
+                    Parent
                   </div>
                 </div>
                 <!--testimonials box End-->
                 <!--testimonials box start-->
                 <div class="item">
-                  <p>Those who do not know how to pursue pleasure rationally encounter consequences that are extremely
-                    painful. Nor again is there anyone who loves or pursues or desires to obtain.</p>
-                  <div class="tuser"> <img src="images/tuser1.jpg" alt=""> <strong>Danny Scotten</strong> Florida
-                    Partner </div>
+                  <p>As a college student on a budget, I appreciate how EcoInspire makes it easy and affordable to
+                    contribute to environmental causes. Every small donation feels meaningful.</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/Nateimg.jpeg" alt=""> <strong>Nathaniel
+                      Valencia</strong> College
+                    Student </div>
+                </div>
+                <!--testimonials box End-->
+                <!--testimonials box start-->
+                <div class="item">
+                  <p>The hands-on tree planting events organized by EcoInspire not only beautify our neighborhood but
+                    also teach us the importance of each tree in our ecosystem.</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/Adeimg.jpeg" alt=""> <strong>Adeoluwa
+                      James</strong> Product
+                    Manager </div>
+                </div>
+                <!--testimonials box End-->
+                <!--testimonials box start-->
+                <div class="item">
+                  <p>EcoInspire's approach to environmental education is refreshing and deeply impactful. They are truly
+                    making a difference one article, one donation, one program at a time.</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/AngelImg.jpeg" alt=""> <strong>Balogun
+                      Angel</strong> Student
+                  </div>
+                </div>
+                <!--testimonials box End-->
+                <!--testimonials box start-->
+                <div class="item">
+                  <p>Joining EcoInspire's initiatives has profoundly changed my perspective on environmental issues.
+                    Their passion is contagious and their impact, undeniable.</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/TurksonImg.jpeg" alt=""> <strong>Emmanuela
+                    </strong> Activist
+                  </div>
+                </div>
+                <!--testimonials box End-->
+                <!--testimonials box start-->
+                <div class="item">
+                  <p>EcoInspire’s website is my go-to resource for the latest in environmental conservation. It’s
+                    informative, user-friendly, and incredibly engaging</p>
+                  <div class="tuser"> <img src="EcoInspireUserImages/RichardImg.jpeg" alt=""> <strong>Richard
+                      L.</strong>
+                    Online Subscriber
+                  </div>
                 </div>
                 <!--testimonials box End-->
               </div>
@@ -624,109 +619,140 @@
     </section>
     <!--About End-->
     <!--Footer Start-->
-    <footer class="footer">
-      <div class="footer-top wf100">
+    <footer class="footer-style-2" data-aos="fade-up">
+      <div class="footer-top wf100" id="blur_footer">
         <div class="container">
           <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
               <!--Footer Widget Start-->
-              <div class="footer-widget">
-                <h4>About Ecova</h4>
-                <p> If anything’s hot in today’s economy, it’s saving money, including a broad range of green businesses
-                  helping people save energy, water, and other resources. Definitely, you can go with this business as
-                  it is a nothing but the future. </p>
-                <a href="#" class="lm">About us</a>
+              <div class="footer-widget about-ecova">
+                <div class="f2logo"> <img src="images/MainLogo.jpg" alt=""> </div>
+                <p>We are EcoInspire, founded by Olaoluwa, dedicated to ecological and environmental stewardship. We
+                  need your help to fight global warming. Once, Earth's resources seemed limitless—used freely for
+                  progress. Now, we recognize the urgency of sustainable management of these resources to protect our
+                  planet for future
+                  generations. Join us to innovate and drive a greener tomorrow. Let's innovate and inspire together for
+                  a greener tomorrow.</p>
+                <a href="about.html" class="more">More About EcoInspire</a>
               </div>
               <!--Footer Widget End-->
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
               <!--Footer Widget Start-->
               <div class="footer-widget">
-                <h4>Our Promises</h4>
+                <h5>Current Projects</h5>
                 <ul class="quick-links">
-                  <li><a href="#">Solar Energy</a></li>
-                  <li><a href="#">Waste Management</a></li>
-                  <li><a href="#">Eco Ideas</a></li>
-                  <li><a href="#">Recycling Materials</a></li>
-                  <li><a href="#">Plant Ecology</a></li>
-                  <li><a href="#">Saving Wildlife </a></li>
+                  <li> Waste Management</li>
+                  <li> Solar Energy</li>
+                  <li> Eco Ideas </li>
+                  <li> Recycling Materials </li>
+                  <li> Plant Ecology </li>
+                  <li>Saving Wildlife</li>
                 </ul>
               </div>
               <!--Footer Widget End-->
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
               <!--Footer Widget Start-->
               <div class="footer-widget">
-                <h4>Latest Posts</h4>
+                <h5>Glossary</h5>
+                <ul class="ftags">
+                  <li><a href="https://en.wikipedia.org/wiki/Solar_energy" target="_blank">Solar Energy</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Plant_ecology" target="_blank">Plant Ecology</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Wildlife" target="_blank">Wildlife</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Eco-innovation" target="_blank">Eco Innovation</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Waste_management" target="_blank">Waste Management</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Water_pollution" target="_blank">Water Pollution</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Tree_planting" target="_blank">Tree Planting</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Donation" target="_blank">Donation</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Wind_power" target="_blank">Wind Power</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Recycling" target="_blank">Recycling</a></li>
+                </ul>
+              </div>
+              <!--Footer Widget End-->
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <!--Footer Widget Start-->
+              <div class="footer-widget">
+                <h5>Latest Posts</h5>
                 <ul class="lastest-products">
-                  <li> <img src="images/flp1.jpg" alt=""> <strong><a href="#">How you can keep alive wild animals
-                        for...</a></strong> <span class="pdate"><i>Posted:</i> 29 September, 2018</span> </li>
-                  <li> <img src="images/flp2.jpg" alt=""> <strong><a href="#">Eliminate your plastic bottle pollution &
-                        keep...</a></strong> <span class="pdate"><i>Posted:</i> 29 September, 2018</span> </li>
-                  <li> <img src="images/flp3.jpg" alt=""> <strong><a href="#">How you can keep alive wild animals
-                        for...</a></strong> <span class="pdate"><i>Posted:</i> 29 September, 2018</span> </li>
+                  <li> <img src="images/flp1.jpg" alt=""> <strong><a
+                        href="https://awionline.org/content/what-you-can-do-terrestrial-wildlife#:~:text=One%20of%20the%20easiest%20and,and%20taking%20out%20old%20fences."
+                        target="_blank">How you can keep alive wild animals
+                        for...</a></strong> <span class="pdate"><i>Posted:</i> 27 April, 2024</span> </li>
+                  <li> <img src="images/flp2.jpg" alt=""> <strong><a
+                        href="https://www.homewater.com/blog/everyday-solutions-to-eliminate-plastic-bottle-waste"
+                        target="_blank">Eliminate your plastic bottle pollution &
+                        keep...</a></strong> <span class="pdate"><i>Posted:</i> 26 April, 2024</span> </li>
+                  <li> <img src="images/flp3.jpg" alt=""> <strong><a
+                        href="https://canopey.com/blogs/6-eco-friendly-brands-leading-the-way-in-2024">6 Eco-Friendly
+                        Brands leading the way...</a></strong> <span class="pdate"><i>Posted:</i> 1 May, 2024</span>
+                  </li>
                 </ul>
-              </div>
-              <!--Footer Widget End-->
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <!--Footer Widget Start-->
-              <div class="footer-widget">
-                <div id="fpro-slider" class="owl-carousel owl-theme">
-                  <!--Footer Product Start-->
-                  <div class="item">
-                    <div class="f-product">
-                      <img src="images/fpro1.jpg" alt="">
-                      <div class="fp-text">
-                        <h6><a href="#">Buy T-Shirts</a></h6>
-                        <strong>$19.00</strong>
-                      </div>
-                    </div>
-                  </div>
-                  <!--Footer Product End-->
-                  <!--Footer Product Start-->
-                  <div class="item">
-                    <div class="f-product">
-                      <img src="images/fpro1.jpg" alt="">
-                      <div class="fp-text">
-                        <h6><a href="#">Buy T-Shirts</a></h6>
-                        <strong>$19.00</strong>
-                      </div>
-                    </div>
-                  </div>
-                  <!--Footer Product End-->
-                  <!--Footer Product Start-->
-                  <div class="item">
-                    <div class="f-product">
-                      <img src="images/fpro1.jpg" alt="">
-                      <div class="fp-text">
-                        <h6><a href="#">Buy T-Shirts</a></h6>
-                        <strong>$19.00</strong>
-                      </div>
-                    </div>
-                  </div>
-                  <!--Footer Product End-->
-                </div>
               </div>
               <!--Footer Widget End-->
             </div>
           </div>
         </div>
       </div>
-      <div class="footer-copyr wf100">
+      <div class="footer-newsletter wf100">
         <div class="container">
           <div class="row">
-            <div class="col-md-4 col-sm-4"> <img src="images/logo.png" alt=""> </div>
-            <div class="col-md-8 col-sm-8">
-              <p><a href="www.templatespoint.net">Templates Point</a></p>
+            <div class="col-lg-7">
+              <div class="newsletter">
+                <strong>Sign a Petition to Help EcoInspire</strong>
+                <ul>
+                  <li>
+                    <input type="text" id="nameInput" placeholder="Your Name">
+                  </li>
+                  <li>
+                    <input type="text" id="emailInput" placeholder="Your Email">
+                  </li>
+                  <li>
+                    <input type="submit" id="submitBtn" value="Submit">
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="footer-social" id="ola-socials"> <strong>My Contacts</strong>
+                <a href="https://www.linkedin.com/in/olaoluwa-james-owolabi"><i class="fab fa-linkedin-in"></i></a>
+                <a
+                  href="mailto:jamesowolabiola2@gmail.com?cc=james.olaoluwa@philander.edu&subject=Interest%20in%20EcoInspire%20Project&body=Hello%20James,%0D%0A%0D%0AI%20just%20saw%20your%20EcoInspire%20project%20and%20would%20love%20to%20connect%20with%20you%20on%20LinkedIn.%0D%0A%0D%0ALooking%20forward%20to%20hearing%20from%20you,%0D%0A[Your%20Name%20and%20LinkedIn:%20]"><i
+                    class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.instagram.com/hot._dawg?igsh=eGtyZnZnOHgzMXkw&utm_source=qr" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+                <a href="https://github.com/jamesolaoluwa" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!--Footer End-->
+      <!-- Modal Structure -->
+      <div id="thankYouModal" class="modal" style="display:none;">
+        <div class="modal-content">
+          <img id="thankYouImage" src="images/images.jpg" alt="Thank You"
+            style="width:100%; max-height:200px; object-fit:contain;">
+          <p>Thank you for being a Planet Protector! Your signature is a step toward a greener tomorrow.</p>
+        </div>
+        <div class="modal-footer">
+          <button class="close-button" onclick="closeModal()">Close</button>
+        </div>
+      </div>
+      <!-- Modal Structure End-->
+
+      <!-- <div class="footer-copyr wf100">
+         <div class="container">
+          <div class="row">
+          </div>
+        </div>
+      </div> -->
+  </div>
+  </footer>
+  <!--Footer End-->
   </div>
   <!--   JS Files Start  -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-1.4.1.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -735,6 +761,77 @@
   <script src="js/jquery.prettyPhoto.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const contactLink = document.querySelector('.nav-link.dropdown-toggle');
+      contactLink.addEventListener('click', function (event) {
+        const dropdownMenu = this.nextElementSibling;
+        // Check if the dropdown is already open
+        if (dropdownMenu && !dropdownMenu.contains(event.target)) {
+          const contactsSection = document.getElementById('mysocials');
+          if (contactsSection) {
+            contactsSection.scrollIntoView({behavior: 'smooth'});
+          }
+        }
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var mainContent = document.getElementById('blur_footer');
+      var modal = document.getElementById('thankYouModal'); // Get the modal element once
+
+      // Make closeModal globally accessible
+      window.closeModal = function () {
+        modal.style.display = 'none';
+        mainContent.classList.remove('blurred');
+      };
+
+      document.getElementById('submitBtn').addEventListener('click', function (e) {
+        e.preventDefault();
+        var name = document.getElementById('nameInput').value.trim().split(" ")[0]; // Gets first name
+        var email = document.getElementById('emailInput').value.trim();
+
+        if (name !== "" && validateEmail(email)) {
+          showModal(name);
+        } else {
+          alert("Please enter a valid name and email.");
+        }
+      });
+
+      function showModal(firstName) {
+        var thankYouImage = document.getElementById('thankYouImage');
+
+        thankYouImage.src = 'images/images.jpg';
+        modal.querySelector('.modal-content p').textContent = `Thank you ${firstName} for being a Planet Protector! Your signature is a step toward a greener tomorrow.`;
+        modal.style.display = 'block';
+        mainContent.classList.add('blurred');
+
+        // Set a timeout to automatically close the modal after 5 seconds
+        setTimeout(function () {
+          // Check if the modal is still displayed before closing
+          if (modal.style.display === 'block') {
+            closeModal();
+          }
+        }, 5000);
+      }
+
+      function validateEmail(email) {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+      }
+    });
+  </script>
+
+  <script>
+    AOS.init({
+      duration: 1300,  // values from 0 to 3000, with step 50ms
+      once: true,  // whether animation should happen only once - while scrolling down
+      mirror: false,  // whether elements should animate out while scrolling past them
+    });
+  </script>
+
 </body>
 
 </html>

@@ -1,3 +1,4 @@
+<!--Hello There, Welcome to My Codepath Advocacy Project(I put a lot of work into this)-->
 <!doctype html>
 <html lang="en">
 
@@ -17,6 +18,9 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/prettyPhoto.css" rel="stylesheet">
   <link href="css/all.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <!-- AOS CSS End-->
   <!-- CSS FILES End -->
 </head>
 
@@ -25,15 +29,14 @@
     <!--Header Start-->
     <header class="header-style-1">
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index-2.html"><img src="images/MainLogo.jpg" alt=""></a>
+        <a class="navbar-brand" href="index.html"><img src="images/NewEcoInspirelogo.png" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <i
             class="fas fa-bars"></i> </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="index-2.html" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"> Home </a>
+              <a class="nav-link dropdown-toggle" href="index.html" role="button" aria-expanded="false"> Home </a>
               <!-- <ul class="dropdown-menu" >
                            <li><a href="index-2.html">Home One</a></li>
                            <li><a href="home-two.html">Home Two</a></li>
@@ -56,11 +59,11 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="causes.html" role="button" aria-haspopup="true"
                 aria-expanded="false"> Causes </a>
-              <ul class="dropdown-menu">
+              <!-- <ul class="dropdown-menu">
                 <li><a href="causes.html">Causes Grid</a></li>
                 <li><a href="causes-list.html">Causes List</a></li>
                 <li><a href="causes-details.html">Causes Details</a> </li>
-              </ul>
+              </ul> -->
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="blog-three-col.html" role="button" aria-haspopup="true"
@@ -120,16 +123,16 @@
               </ul>
             </li> -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="contact.html" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"> Contact </a>
-              <ul class="dropdown-menu">
+              <a class="nav-link dropdown-toggle" href="#ola-socials" role="button" aria-haspopup="true"
+                aria-expanded="false"> Contact Me</a>
+              <!-- <ul class="dropdown-menu">
                 <li><a href="contact-one.html">Contact One</a> </li>
                 <li><a href="contact-two.html">Contact Two</a> </li>
-              </ul>
+              </ul> -->
             </li>
           </ul>
           <ul class="float-right topside-menu">
-            <li> <a class="con">Hello There !</a> </li>
+            <li> <a class="con">Hello There!</a> </li>
             <li><a href="#search"> <i class="fas fa-search"></i> </a></li>
             <li class="burger"> <a href="#"><i class="fas fa-bars"></i> Menu</a> </li>
           </ul>
@@ -195,7 +198,7 @@
     </section>
     <!--Slider End-->
     <!--About Section Start-->
-    <section class="home-about wf100 p80">
+    <section class="home-about wf100 p80" data-aos="fade-down">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -238,7 +241,7 @@
     </section>
     <!--About Section End-->
     <!--Services Slider Start-->
-    <section class="home-services wf100 p80bottom">
+    <section class="home-services wf100 p80bottom" data-aos="fade-up">
       <div class="row">
         <!--Services Box Start-->
         <div class="ser-col">
@@ -325,64 +328,74 @@
         </div>
         <!--Services Box End-->
       </div>
-      <div class="load-more text-center w-100"> <a href="#" class="lm">View More Articles</a> </div>
+      <div class="load-more text-center w-100"> <a href="blog-three-col.html" class="lm">View More Articles</a> </div>
     </section>
     <!--Services Slider End-->
     <!--News Post Section Start-->
-    <section class="news-posts wf100 p80">
+    <section class="news-posts wf100 p80" data-aos="fade-down">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
             <!--title start-->
             <div class="section-title">
-              <strong>Our Latest</strong>
+              <strong>Latest</strong>
               <h2>News Posts</h2>
             </div>
             <!--title end-->
             <div class="blog-list wf100">
               <!--Blog Post Start-->
               <div class="blog-post wf100">
-                <div class="blog-thumb"> <a href="#"><i class="fas fa-link"></i></a> <img src="images/np1.jpg" alt="">
+                <div class="blog-thumb"> <a
+                    href="https://awionline.org/content/what-you-can-do-terrestrial-wildlife#:~:text=One%20of%20the%20easiest%20and,and%20taking%20out%20old%20fences."
+                    target="_blank"><i class="fas fa-link"></i></a> <img src="images/np1.jpg" alt="">
                 </div>
                 <div class="blog-txt">
-                  <h5><a href="#">How you can keep alive wild animals for a long period.</a></h5>
+                  <h5><a
+                      href="https://awionline.org/content/what-you-can-do-terrestrial-wildlife#:~:text=One%20of%20the%20easiest%20and,and%20taking%20out%20old%20fences."
+                      target="_blank">How
+                      you can keep alive wild animals for a long period.</a></h5>
                   <ul class="post-meta">
-                    <li><span>By:</span> Danial John</li>
-                    <li><span>Posted:</span> 29 September, 2018</li>
+                    <li><span>By:</span> Animal Welfare Institute</li>
+                    <li><span>Posted:</span> 17 April, 2024</li>
                   </ul>
-                  <p> According to a survey the perceived higher cost of environmentally-friendly products is the major
-                    holdup to consumers going green. </p>
+                  <p> Stand up for Wildlife: Your voice matters! Write to your federal and state elected officials
+                    encouraging them to support policies that protect wildlife. </p>
                 </div>
               </div>
               <!--Blog Post End-->
               <!--Blog Post Start-->
               <div class="blog-post wf100">
-                <div class="blog-thumb"><a href="#"><i class="fas fa-link"></i></a> <img src="images/np2.jpg" alt="">
+                <div class="blog-thumb"><a
+                    href="https://www.homewater.com/blog/everyday-solutions-to-eliminate-plastic-bottle-waste"
+                    target="_blank"><i class="fas fa-link"></i></a> <img src="images/np2.jpg" alt="">
                 </div>
                 <div class="blog-txt">
-                  <h5><a href="#">Eliminate your plastic bottle pollution
+                  <h5><a href="https://www.homewater.com/blog/everyday-solutions-to-eliminate-plastic-bottle-waste"
+                      target="_blank">Eliminate your plastic bottle pollution
                       and keep safe.</a>
                   </h5>
                   <ul class="post-meta">
-                    <li><span>By:</span> Danial John</li>
-                    <li><span>Posted:</span> 29 September, 2018</li>
+                    <li><span>By:</span> Home Water</li>
+                    <li><span>Posted:</span> 12 April, 2024</li>
                   </ul>
-                  <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                    essentially unchange it was popularised in letraset sheets.</p>
+                  <p> Plastic is by far the most used synthetic packaging material across the globe. From water bottles
+                    to food containers, tons of plastic products find their way into our homes every day.</p>
                 </div>
               </div>
               <!--Blog Post End-->
               <!--Blog Post Start-->
               <div class="blog-post wf100">
-                <div class="blog-thumb"><a href="#"><i class="fas fa-link"></i></a> <img src="images/np3.jpg" alt="">
+                <div class="blog-thumb"><a
+                    href="https://canopey.com/blogs/6-eco-friendly-brands-leading-the-way-in-2024" target="_blank"><i
+                      class="fas fa-link"></i></a> <img src="images/np3.jpg" alt="">
                 </div>
                 <div class="blog-txt">
-                  <h5><a href="#">The effort to GoGreen has been felt
-                      across industries.</a>
+                  <h5><a href="https://canopey.com/blogs/6-eco-friendly-brands-leading-the-way-in-2024">6 Eco-Friendly
+                      Brands Leading The Way In 2024</a>
                   </h5>
                   <ul class="post-meta">
-                    <li><span>By:</span> Danial John</li>
-                    <li><span>Posted:</span> 29 September, 2018</li>
+                    <li><span>By:</span> Natalie Lewis </li>
+                    <li><span>Posted:</span>27 March, 2024</li>
                   </ul>
                   <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour, or randomised words. </p>
@@ -393,8 +406,8 @@
           </div>
           <div class="col-md-4">
             <!--title start-->
-            <div class="section-title">
-              <strong>Our Next</strong>
+            <div class="section-title" data-aos="fade-up">
+              <strong>My Next</strong>
               <h2>Events</h2>
             </div>
             <!--title end-->
@@ -402,30 +415,30 @@
               <!--Blog Post Start-->
               <div class="event-post">
                 <div class="event-thumb">
-                  <a href="#"><i class="fas fa-link"></i></a> <img src="images/ep1.jpg" alt="">
+                  <img src="images/ep1.jpg" alt="">
                   <ul class="post-meta">
-                    <li>29 August, 2018 </li>
-                    <li> 08:00 am - 01:00 pm</li>
+                    <li>27 April, 2024</li>
+                    <li> 10:00 am - 01:00 pm</li>
                   </ul>
                 </div>
                 <div class="event-txt">
-                  <h6><a href="#">Forest Planting Campaign</a></h6>
-                  <p><i class="fas fa-map-marker-alt"></i> Green Gardendening Center, New York, USA </p>
+                  <h6>Defend the Forests Forum</h6>
+                  <p><i class="fas fa-map-marker-alt"></i> Philander Smith University, Little Rock, AR </p>
                 </div>
               </div>
               <!--Blog Post End-->
               <!--Blog Post Start-->
               <div class="event-post">
                 <div class="event-thumb">
-                  <a href="#"><i class="fas fa-link"></i></a> <img src="images/ep2.jpg" alt="">
+                  <img src="images/ep2.jpg" alt="">
                   <ul class="post-meta">
-                    <li>29 August, 2018 </li>
-                    <li> 08:00 am - 01:00 pm</li>
+                    <li>18 May, 2024 </li>
+                    <li> 10:00 am - 01:00 pm</li>
                   </ul>
                 </div>
                 <div class="event-txt">
-                  <h6><a href="#">Save Energy by Solar System</a></h6>
-                  <p><i class="fas fa-map-marker-alt"></i> Electric Open Area, New York, USA </p>
+                  <h6>Harness the Sun: A Solar Energy Workshop</h6>
+                  <p><i class="fas fa-map-marker-alt"></i> Joycelen Elders Building, Little Rock, AR</p>
                 </div>
               </div>
               <!--Blog Post End-->
@@ -436,14 +449,14 @@
     </section>
     <!--News Post Section End-->
     <!--Fundraising Campaigns Section Start-->
-    <section class="wf100 p80 fcampaigns">
+    <section class="wf100 p80 fcampaigns" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <!--title start-->
             <div class="section-title">
               <strong>Our Causes</strong>
-              <h2>Fundraising Campaigns</h2>
+              <h2>Active Fundraising Campaigns</h2>
             </div>
             <!--title end-->
           </div>
@@ -452,89 +465,81 @@
           <div class="col-md-4">
             <!--campaign box start-->
             <div class="campaign-box">
-              <div class="campaign-thumb"> <a href="#"><i class="fas fa-link"></i></a> <img src="images/fc1.jpg" alt="">
+              <div class="campaign-thumb"> <a
+                  href="https://engage.us.greenpeace.org/onlineactions/o-hWUQI5pE640vOs1jCY2g2?utm_source=gpm&utm_medium=ads&utm_content=FD_PMAX_FY24_EarthDay&utm_campaign=Inc__240401_FD_PMMTEGN_InDefAZZZZZZZZZCZ&sourceid=1018451&ms=FD_PMAX_FY24_EarthDay&gad_source=1&gclid=Cj0KCQjw2uiwBhCXARIsACMvIU1VxSK_sf1JoddO09ZDR17l-aOkb0mY3DoHtHpfiyLAN698pAhhvb0aAhZlEALw_wcB"
+                  target="_blank"><i class="fas fa-link"></i></a> <img src="images/fc1.jpg" alt="">
               </div>
               <div class="campaign-txt">
-                <h5><a href="#">Let’s Stop Global Warming</a></h5>
-                <ul class="participants">
-                  <li><img src="images/u1.jpg" alt=""></li>
-                  <li><img src="images/u2.jpg" alt=""></li>
-                  <li><img src="images/u3.jpg" alt=""></li>
-                  <li><img src="images/u4.jpg" alt=""></li>
-                  <li><img src="images/u5.jpg" alt=""></li>
-                  <li><span>+16</span></li>
-                  <li><strong><i>21</i> Backers</strong></li>
-                </ul>
+                <h5><a
+                    href="https://engage.us.greenpeace.org/onlineactions/o-hWUQI5pE640vOs1jCY2g2?utm_source=gpm&utm_medium=ads&utm_content=FD_PMAX_FY24_EarthDay&utm_campaign=Inc__240401_FD_PMMTEGN_InDefAZZZZZZZZZCZ&sourceid=1018451&ms=FD_PMAX_FY24_EarthDay&gad_source=1&gclid=Cj0KCQjw2uiwBhCXARIsACMvIU1VxSK_sf1JoddO09ZDR17l-aOkb0mY3DoHtHpfiyLAN698pAhhvb0aAhZlEALw_wcB"
+                    target="_blank">Let’s Stop Global Warming</a></h5>
+                <p>GreenPeace - Not Sponsored</p>
                 <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0"
+                  <div class="progress-bar" role="progressbar" style="width: 7%" aria-valuenow="55" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <ul class="funds">
-                  <li><strong>47%</strong> Funded</li>
-                  <li><strong>$638.00</strong> Raised</li>
+                  <li><strong>7%</strong> Funded</li>
+                  <li><strong>$683.00</strong> Raised</li>
                   <li><strong>$9750.00</strong> Required</li>
                 </ul>
               </div>
-              <a href="#" class="dbutton">Donate Now</a>
+              <a href="https://engage.us.greenpeace.org/onlineactions/o-hWUQI5pE640vOs1jCY2g2?utm_source=gpm&utm_medium=ads&utm_content=FD_PMAX_FY24_EarthDay&utm_campaign=Inc__240401_FD_PMMTEGN_InDefAZZZZZZZZZCZ&sourceid=1018451&ms=FD_PMAX_FY24_EarthDay&gad_source=1&gclid=Cj0KCQjw2uiwBhCXARIsACMvIU1VxSK_sf1JoddO09ZDR17l-aOkb0mY3DoHtHpfiyLAN698pAhhvb0aAhZlEALw_wcB"
+                target="_blank" class="dbutton">Support Our Planet</a>
             </div>
             <!--campaign box end-->
           </div>
           <div class="col-md-4">
             <!--campaign box start-->
             <div class="campaign-box">
-              <div class="campaign-thumb"> <a href="#"><i class="fas fa-link"></i></a> <img src="images/fc2.jpg" alt="">
+              <div class="campaign-thumb"> <a
+                  href="https://www.rainforesttrust.org/earthday2024/?utm_source=google&utm_medium=search&utm_campaign=climatechange&utm_term=fight%20global%20warming&gad_source=1&gclid=Cj0KCQjw2uiwBhCXARIsACMvIU2djwb7f_kWACWwXXJ4aLjMZ19CRNF-AHQ0Voi-HE71tGGfbVIzleoaAinNEALw_wcB"
+                  target="_blank"><i class="fas fa-link"></i></a> <img src="images/fc2.jpg" alt="">
               </div>
               <div class="campaign-txt">
-                <h5><a href="#">It’s time to Forest Planting</a></h5>
-                <ul class="participants">
-                  <li><img src="images/u5.jpg" alt=""></li>
-                  <li><img src="images/u4.jpg" alt=""></li>
-                  <li><span>M</span></li>
-                  <li><img src="images/u5.jpg" alt=""></li>
-                  <li><span>+16</span></li>
-                  <li><strong><i>08</i> Backers</strong></li>
-                </ul>
+                <h5><a
+                    href="https://www.rainforesttrust.org/earthday2024/?utm_source=google&utm_medium=search&utm_campaign=climatechange&utm_term=fight%20global%20warming&gad_source=1&gclid=Cj0KCQjw2uiwBhCXARIsACMvIU2djwb7f_kWACWwXXJ4aLjMZ19CRNF-AHQ0Voi-HE71tGGfbVIzleoaAinNEALw_wcB"
+                    target="_blank">Protect the Amazon</a></h5>
+                <p>Rain Forest Trust - Not Sponsored</p>
                 <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0"
+                  <div class="progress-bar" role="progressbar" style="width: 9%" aria-valuenow="35" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <ul class="funds">
-                  <li><strong>47%</strong> Funded</li>
-                  <li><strong>$638.00</strong> Raised</li>
-                  <li><strong>$9750.00</strong> Required</li>
+                  <li><strong>9%</strong> Funded</li>
+                  <li><strong>$6750.00</strong> Raised</li>
+                  <li><strong>$75000.00</strong> Required</li>
                 </ul>
               </div>
-              <a href="#" class="dbutton">Donate Now</a>
+              <a href="https://www.rainforesttrust.org/earthday2024/?utm_source=google&utm_medium=search&utm_campaign=climatechange&utm_term=fight%20global%20warming&gad_source=1&gclid=Cj0KCQjw2uiwBhCXARIsACMvIU2djwb7f_kWACWwXXJ4aLjMZ19CRNF-AHQ0Voi-HE71tGGfbVIzleoaAinNEALw_wcB"
+                target="_blank" class="dbutton">Keep the Amazon Breathing</a>
             </div>
             <!--campaign box end-->
           </div>
           <div class="col-md-4">
             <!--campaign box start-->
             <div class="campaign-box">
-              <div class="campaign-thumb"> <a href="#"><i class="fas fa-link"></i></a> <img src="images/fc3.jpg" alt="">
+              <div class="campaign-thumb"> <a
+                  href="https://support.defenders.org/page/65150/donate/1?ea.tracking.id=paidads_google&utm_source=google&utm_medium=paidsearch&utm_campaign=prospecting&utm_content=brandsearch-responsivead&supporter.appealCode=3WDW2400PAXXX&en_og_source=FY24_Googleads&gad_source=1&gclid=Cj0KCQjw2uiwBhCXARIsACMvIU0MIHoBTtVPKT5nmTKLobFoQ18bLWDO3oLNhwaquuAu4aTpQjC_uy4aAtU2EALw_wcB"
+                  target="_blank"><i class="fas fa-link"></i></a> <img src="images/fc3.jpg" alt="">
               </div>
               <div class="campaign-txt">
-                <h5><a href="#">Securing Wildlife</a></h5>
-                <ul class="participants">
-                  <li><img src="images/u1.jpg" alt=""></li>
-                  <li><img src="images/u2.jpg" alt=""></li>
-                  <li><img src="images/u3.jpg" alt=""></li>
-                  <li><span>S</span></li>
-                  <li><img src="images/u5.jpg" alt=""></li>
-                  <li><span>+16</span></li>
-                  <li><strong><i>19</i> Backers</strong></li>
-                </ul>
+                <h5><a
+                    href="https://support.defenders.org/page/65150/donate/1?ea.tracking.id=paidads_google&utm_source=google&utm_medium=paidsearch&utm_campaign=prospecting&utm_content=brandsearch-responsivead&supporter.appealCode=3WDW2400PAXXX&en_og_source=FY24_Googleads&gad_source=1&gclid=Cj0KCQjw2uiwBhCXARIsACMvIU0MIHoBTtVPKT5nmTKLobFoQ18bLWDO3oLNhwaquuAu4aTpQjC_uy4aAtU2EALw_wcB"
+                    target="_blank">Securing Wildlife</a></h5>
+                <p>Defenders of Wildlife - Not Sponsored</p>
                 <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0"
+                  <div class="progress-bar" role="progressbar" style="width: 14%" aria-valuenow="45" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <ul class="funds">
-                  <li><strong>47%</strong> Funded</li>
-                  <li><strong>$638.00</strong> Raised</li>
-                  <li><strong>$9750.00</strong> Required</li>
+                  <li><strong>14%</strong> Funded</li>
+                  <li><strong>$13580.00</strong> Raised</li>
+                  <li><strong>$97000.00</strong> Required</li>
                 </ul>
               </div>
-              <a href="#" class="dbutton">Donate Now</a>
+              <a href="https://support.defenders.org/page/65150/donate/1?ea.tracking.id=paidads_google&utm_source=google&utm_medium=paidsearch&utm_campaign=prospecting&utm_content=brandsearch-responsivead&supporter.appealCode=3WDW2400PAXXX&en_og_source=FY24_Googleads&gad_source=1&gclid=Cj0KCQjw2uiwBhCXARIsACMvIU0MIHoBTtVPKT5nmTKLobFoQ18bLWDO3oLNhwaquuAu4aTpQjC_uy4aAtU2EALw_wcB"
+                target="_blank" class="dbutton">Help Save a Tail</a>
             </div>
             <!--campaign box end-->
           </div>
@@ -543,34 +548,34 @@
     </section>
     <!--Fundraising Campaigns Section End-->
     <!--Current Promises Section Start-->
-    <section class="promises wf100 p80">
+    <section class="promises wf100 p80" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
             <div class="pro-title">
-              <h2>Current Promises</h2>
-              <h3>Save Water, Energey, Control Pollution
-                & Environment, Wildlife, Forest Planting
+              <h2>EcoInspire Promises by 2050</h2>
+              <h3>Save Water, Energy, Control Pollution
+                & Environment, Wildlife, Forest Planting, and
                 Implementation of Solar System.
               </h3>
             </div>
             <ul class="counter">
               <li>
-                <p class="counter-count">59000</p>
+                <p class="counter-count">20000</p>
                 <p class="ctxt">Trees Planted</p>
               </li>
               <li>
-                <p class="counter-count">69000</p>
-                <p class="ctxt">Solar Panels in 2017</p>
+                <p class="counter-count">2000</p>
+                <p class="ctxt">Solar Panels in 2050</p>
               </li>
               <li>
-                <p class="counter-count">49000</p>
+                <p class="counter-count">5000</p>
                 <p class="ctxt">Wildlife Saved</p>
               </li>
             </ul>
           </div>
           <div class="col-md-5">
-            <div class="volunteer-form">
+            <!-- <div class="volunteer-form">
               <div class="section-title">
                 <strong>Join Us Now</strong>
                 <h2>Become Volunteer</h2>
@@ -589,14 +594,14 @@
                   <input type="submit" class="fsubmit" value="Signup to Join us Now">
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </section>
     <!--Current Promises Section End-->
     <!--Activities Gallery Section Start-->
-    <section class="agallery gallery wf100 p80">
+    <section class="agallery gallery wf100 p80" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
@@ -651,7 +656,7 @@
     </section>
     <!--Activities Gallery Section End-->
     <!--Partner Logos Section Start-->
-    <div class="partner-logos wf100 mb80">
+    <!-- <div class="partner-logos wf100 mb80">
       <div class="container">
         <div id="partner-logos" class="owl-carousel owl-theme">
           <div class="item"><img src="images/plogo1.png" alt=""></div>
@@ -666,21 +671,24 @@
           <div class="item"><img src="images/plogo5.png" alt=""></div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--Partner Logos Section End-->
     <!--Footer Start-->
-    <footer class="footer-style-2">
-      <div class="footer-top wf100">
+    <footer class="footer-style-2" data-aos="fade-up">
+      <div class="footer-top wf100" id="blur_footer">
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-sm-6">
               <!--Footer Widget Start-->
               <div class="footer-widget about-ecova">
-                <div class="f2logo"> <img src="images/f2logo.png" alt=""> </div>
-                <p>We are Ecova: eco & environmental community. We need your support and help to Stop Globar Warning.
-                  Few generations ago it to seemed like the world’s resources were infinite, and the people needed only
-                  to access them to create business, Lorem ipsum dolor it amet consect adipiscing.</p>
-                <a href="#" class="more">More About Ecova</a>
+                <div class="f2logo"> <img src="images/MainLogo.jpg" alt=""> </div>
+                <p>We are EcoInspire, founded by Olaoluwa, dedicated to ecological and environmental stewardship. We
+                  need your help to fight global warming. Once, Earth's resources seemed limitless—used freely for
+                  progress. Now, we recognize the urgency of sustainable management of these resources to protect our
+                  planet for future
+                  generations. Join us to innovate and drive a greener tomorrow. Let's innovate and inspire together for
+                  a greener tomorrow.</p>
+                <a href="about.html" class="more">More About EcoInspire</a>
               </div>
               <!--Footer Widget End-->
             </div>
@@ -689,12 +697,12 @@
               <div class="footer-widget">
                 <h5>Current Projects</h5>
                 <ul class="quick-links">
-                  <li> <a href="#">Waste Management</a></li>
-                  <li><a href="#">Solar Energy</a></li>
-                  <li><a href="#">Eco Ideas</a></li>
-                  <li><a href="#">Recycling Materials</a></li>
-                  <li><a href="#">Plant Ecology</a></li>
-                  <li><a href="#">Saving Wildlife </a></li>
+                  <li> Waste Management</li>
+                  <li> Solar Energy</li>
+                  <li> Eco Ideas </li>
+                  <li> Recycling Materials </li>
+                  <li> Plant Ecology </li>
+                  <li>Saving Wildlife</li>
                 </ul>
               </div>
               <!--Footer Widget End-->
@@ -702,18 +710,18 @@
             <div class="col-lg-3 col-sm-6">
               <!--Footer Widget Start-->
               <div class="footer-widget">
-                <h5>Tags</h5>
+                <h5>Glossary</h5>
                 <ul class="ftags">
-                  <li><a href="#">Solar Energy</a></li>
-                  <li><a href="#">Plant Ecology</a></li>
-                  <li><a href="#">Wildlife</a></li>
-                  <li><a href="#">Eco Ideas</a></li>
-                  <li><a href="#">Waste Management</a></li>
-                  <li><a href="#">Water</a></li>
-                  <li><a href="#">Forest Planting</a></li>
-                  <li><a href="#">Donation</a></li>
-                  <li><a href="#">Wind Energy</a></li>
-                  <li><a href="#">Recycling</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Solar_energy" target="_blank">Solar Energy</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Plant_ecology" target="_blank">Plant Ecology</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Wildlife" target="_blank">Wildlife</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Eco-innovation" target="_blank">Eco Innovation</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Waste_management" target="_blank">Waste Management</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Water_pollution" target="_blank">Water Pollution</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Tree_planting" target="_blank">Tree Planting</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Donation" target="_blank">Donation</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Wind_power" target="_blank">Wind Power</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Recycling" target="_blank">Recycling</a></li>
                 </ul>
               </div>
               <!--Footer Widget End-->
@@ -723,12 +731,18 @@
               <div class="footer-widget">
                 <h5>Latest Posts</h5>
                 <ul class="lastest-products">
-                  <li> <img src="images/flp1.jpg" alt=""> <strong><a href="#">How you can keep alive wild animals
-                        for...</a></strong> <span class="pdate"><i>Posted:</i> 29 September, 2018</span> </li>
-                  <li> <img src="images/flp2.jpg" alt=""> <strong><a href="#">Eliminate your plastic bottle pollution &
-                        keep...</a></strong> <span class="pdate"><i>Posted:</i> 29 September, 2018</span> </li>
-                  <li> <img src="images/flp3.jpg" alt=""> <strong><a href="#">How you can keep alive wild animals
-                        for...</a></strong> <span class="pdate"><i>Posted:</i> 29 September, 2018</span> </li>
+                  <li> <img src="images/flp1.jpg" alt=""> <strong><a
+                        href="https://awionline.org/content/what-you-can-do-terrestrial-wildlife#:~:text=One%20of%20the%20easiest%20and,and%20taking%20out%20old%20fences."
+                        target="_blank">How you can keep alive wild animals
+                        for...</a></strong> <span class="pdate"><i>Posted:</i> 27 April, 2024</span> </li>
+                  <li> <img src="images/flp2.jpg" alt=""> <strong><a
+                        href="https://www.homewater.com/blog/everyday-solutions-to-eliminate-plastic-bottle-waste"
+                        target="_blank">Eliminate your plastic bottle pollution &
+                        keep...</a></strong> <span class="pdate"><i>Posted:</i> 26 April, 2024</span> </li>
+                  <li> <img src="images/flp3.jpg" alt=""> <strong><a
+                        href="https://canopey.com/blogs/6-eco-friendly-brands-leading-the-way-in-2024">6 Eco-Friendly
+                        Brands leading the way...</a></strong> <span class="pdate"><i>Posted:</i> 1 May, 2024</span>
+                  </li>
                 </ul>
               </div>
               <!--Footer Widget End-->
@@ -741,56 +755,70 @@
           <div class="row">
             <div class="col-lg-7">
               <div class="newsletter">
-                <strong>Join our Newsletter</strong>
+                <strong>Sign a Petition to Help EcoInspire</strong>
                 <ul>
                   <li>
-                    <input type="text" placeholder="Your Name">
+                    <input type="text" id="nameInput" placeholder="Your Name">
                   </li>
                   <li>
-                    <input type="text" placeholder="Your Email">
+                    <input type="text" id="emailInput" placeholder="Your Email">
                   </li>
                   <li>
-                    <input type="submit" value="Subscribe">
+                    <input type="submit" id="submitBtn" value="Submit">
                   </li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-5">
-              <div class="footer-social"> <strong>Get Connect</strong> <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a
-                  href="#"><i class="fab fa-google-plus-g"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> <a
-                  href="#"><i class="fab fa-youtube"></i></a>
+              <div class="footer-social" id="ola-socials"> <strong>My Contacts</strong>
+                <a href="https://www.linkedin.com/in/olaoluwa-james-owolabi"><i class="fab fa-linkedin-in"></i></a>
+                <a
+                  href="mailto:jamesowolabiola2@gmail.com?cc=james.olaoluwa@philander.edu&subject=Interest%20in%20EcoInspire%20Project&body=Hello%20James,%0D%0A%0D%0AI%20just%20saw%20your%20EcoInspire%20project%20and%20would%20love%20to%20connect%20with%20you%20on%20LinkedIn.%0D%0A%0D%0ALooking%20forward%20to%20hearing%20from%20you,%0D%0A[Your%20Name%20and%20LinkedIn:%20]"><i
+                    class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.instagram.com/hot._dawg?igsh=eGtyZnZnOHgzMXkw&utm_source=qr" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+                <a href="https://github.com/jamesolaoluwa" target="_blank"><i class="fab fa-github"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer-copyr wf100">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-sm-8">
-              <p><a href="www.templatespoint.net">Templates Point</a></p>
-            </div>
-          </div>
+      <!-- Modal Structure -->
+      <div id="thankYouModal" class="modal" style="display:none;">
+        <div class="modal-content">
+          <img id="thankYouImage" src="images/images.jpg" alt="Thank You"
+            style="width:100%; max-height:200px; object-fit:contain;">
+          <p>Thank you for being a Planet Protector! Your signature is a step toward a greener tomorrow.</p>
+        </div>
+        <div class="modal-footer">
+          <button class="close-button" onclick="closeModal()">Close</button>
         </div>
       </div>
-    </footer>
-    <!--Footer End-->
-    <nav class="sidenav">
-      <ul class="main">
-        <li><a href="index-2.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="events-grid.html">Events</a></li>
-        <li><a href="causes.html">Causes</a></li>
-        <li><a href="projects-grid.html">Projects</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="shop-two.html">Shop</a></li>
-        <li><a href="contact-one.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="overlay"></div>
+      <!-- Modal Structure End-->
+
+      <!-- <div class="footer-copyr wf100">
+         <div class="container">
+          <div class="row">
+          </div>
+        </div>
+      </div> -->
+  </div>
+  </footer>
+  <!--Footer End-->
+  <nav class="sidenav">
+    <ul class="main">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="events-grid-2.html">Events</a></li>
+      <li><a href="causes.html">Causes</a></li>
+      <li><a href="blog-three-col.html">Blog</a></li>
+      <li><a href="#ola-socials">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="overlay"></div>
   </div>
   <!--   JS Files Start  -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-1.4.1.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -799,6 +827,80 @@
   <script src="js/jquery.prettyPhoto.js"></script>
   <script src="js/isotope.min.js"></script>
   <script src="js/custom.js"></script>
+  <!--   JS Files End  -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const contactLink = document.querySelector('.nav-link.dropdown-toggle');
+      contactLink.addEventListener('click', function (event) {
+        const dropdownMenu = this.nextElementSibling;
+        // Check if the dropdown is already open
+        if (dropdownMenu && !dropdownMenu.contains(event.target)) {
+          const contactsSection = document.getElementById('mysocials');
+          if (contactsSection) {
+            contactsSection.scrollIntoView({behavior: 'smooth'});
+          }
+        }
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var mainContent = document.getElementById('blur_footer');
+      var modal = document.getElementById('thankYouModal'); // Get the modal element once
+
+      // Make closeModal globally accessible
+      window.closeModal = function () {
+        modal.style.display = 'none';
+        mainContent.classList.remove('blurred');
+      };
+
+      document.getElementById('submitBtn').addEventListener('click', function (e) {
+        e.preventDefault();
+        var name = document.getElementById('nameInput').value.trim().split(" ")[0]; // Gets first name
+        var email = document.getElementById('emailInput').value.trim();
+
+        if (name !== "" && validateEmail(email)) {
+          showModal(name);
+        } else {
+          alert("Please enter a valid name and email.");
+        }
+      });
+
+      function showModal(firstName) {
+        var thankYouImage = document.getElementById('thankYouImage');
+
+        thankYouImage.src = 'images/images.jpg';
+        modal.querySelector('.modal-content p').textContent = `Thank you ${firstName} for being a Planet Protector! Your signature is a step toward a greener tomorrow.`;
+        modal.style.display = 'block';
+        mainContent.classList.add('blurred');
+
+        // Set a timeout to automatically close the modal after 5 seconds
+        setTimeout(function () {
+          // Check if the modal is still displayed before closing
+          if (modal.style.display === 'block') {
+            closeModal();
+          }
+        }, 5000);
+      }
+
+      function validateEmail(email) {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+      }
+    });
+  </script>
+
+  <script>
+    AOS.init({
+      duration: 1300,  // values from 0 to 3000, with step 50ms
+      once: true,  // whether animation should happen only once - while scrolling down
+      mirror: false,  // whether elements should animate out while scrolling past them
+    });
+  </script>
+
+
 </body>
 
 
